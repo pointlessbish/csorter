@@ -6,8 +6,7 @@ import icon from "astro-icon";
 
 // https://astro.build/config
 export default defineConfig( {
-  site: 'https://astronaut.github.io', // Set the site URL
-  base: '/csorter/', // Set the base path for the repo
+  site: 'https://csorter.void14.com', // Set the site URL
   compressHTML: true,
   integrations: [
     mdx(),
