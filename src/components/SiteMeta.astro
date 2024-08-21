@@ -3,16 +3,16 @@ import { ViewTransitions } from 'astro:transitions'
 
 const { title, description, url, image, author } = Astro.props
 
-let subtitle = 'Accessible Astro Starter'
+let subtitle = 'CSorter'
 ---
 
 <!-- general meta -->
-<meta name="title" content={`${title} - ${subtitle}`} />
+<meta name="title" content={`${subtitle} - ${title}`} />
 <meta name="description" content={description} />
 <meta name="author" content={author} />
 
 <!-- open graph -->
-<meta property="og:title" content={`${title} - ${subtitle}`} />
+<meta property="og:title" content={`${subtitle} - ${title}`} />
 <meta property="og:description" content={description} />
 <meta property="og:type" content="website" />
 <meta property="og:url" content={url} />
@@ -21,6 +21,6 @@ let subtitle = 'Accessible Astro Starter'
 <!-- twitter card -->
 
 <!-- page title -->
-<title>{title} - {subtitle}</title>
+<title>{subtitle} - {title}</title>
 
 <ViewTransitions />

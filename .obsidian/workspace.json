@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "src/content/changelog/2024-08-20.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "src/content/changelog/2024-08-20.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "src/content/changelog/2024-08-20.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "src/content/changelog/2024-08-20.md"
               }
             }
           }
@@ -148,6 +148,32 @@
   },
   "active": "5bfba8a0c8450a5b",
   "lastOpenFiles": [
+    "src/layouts/MDLayout.astro",
+    "src/content/items/Supported.md",
+    "src/content/items/CurrentlySupported.md",
+    "src/components/ItemsPreview.astro",
+    "src/components/PortfolioPreview - Copy.astro",
+    "src/pages/items/[...slug].astro",
+    "src/pages/items",
+    "src/pages/changelog/items",
+    "src/content/items/items.md",
+    "src/pages/items.md",
+    "src/pages/items/items.md",
+    "src/pages/items.astro",
+    "src/content/changelog/2024-08-21.md",
+    "src/layouts/ProjectLayout.astro",
+    "package-lock.json",
+    "node_modules/marked/README.md",
+    "node_modules/marked/man/marked.1.md",
+    "node_modules/marked/LICENSE.md",
+    "node_modules/marked/bin/marked.js",
+    "node_modules/marked/bin/main.js",
+    "src/content/items/todo.md",
+    "src/content/items/supported.md",
+    "src/content/items-list/todo.md",
+    "src/content/items-list/supported.md",
+    "src/content/items/to-be-added.md",
+    "src/content/changelog/2024-08-20.md",
     "README.md"
   ]
 }
