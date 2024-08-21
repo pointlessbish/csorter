@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/changelog/2024-08-20.md",
+                "file": "src/content/items/Supported.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/changelog/2024-08-20.md",
+                "file": "src/content/items/Supported.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/changelog/2024-08-20.md",
+                "file": "src/content/items/Supported.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/changelog/2024-08-20.md"
+                "file": "src/content/items/Supported.md"
               }
             }
           }
@@ -148,6 +148,8 @@
   },
   "active": "5bfba8a0c8450a5b",
   "lastOpenFiles": [
+    "src/pages/itemlist.astro",
+    "src/content/changelog/2024-08-20.md",
     "src/layouts/MDLayout.astro",
     "src/content/items/Supported.md",
     "src/content/items/CurrentlySupported.md",
@@ -167,13 +169,11 @@
     "node_modules/marked/man/marked.1.md",
     "node_modules/marked/LICENSE.md",
     "node_modules/marked/bin/marked.js",
-    "node_modules/marked/bin/main.js",
     "src/content/items/todo.md",
     "src/content/items/supported.md",
     "src/content/items-list/todo.md",
     "src/content/items-list/supported.md",
     "src/content/items/to-be-added.md",
-    "src/content/changelog/2024-08-20.md",
     "README.md"
   ]
 }
