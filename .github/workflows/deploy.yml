@@ -20,7 +20,6 @@ jobs:
     steps:
       - name: Checkout your repository using git
         uses: actions/checkout@v4
-
       - name: Install, build, and upload your site
         uses: withastro/action@v2
         with:
@@ -28,21 +27,13 @@ jobs:
           node-version: 20 # The specific version of Node that should be used to build your site. Defaults to 20. (optional)
           package-manager: npm@latest # The Node package manager that should be used to install dependencies and build your site.
 
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: 'dist' # This is where Astro outputs the built files. Adjust if necessary.
-
   deploy:
     needs: build
     runs-on: ubuntu-latest
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}  
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Download artifact
-        uses: actions/download-pages-artifact@v3
-
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
