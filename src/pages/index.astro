@@ -1,0 +1,64 @@
+---
+import DefaultLayout from '../layouts/DefaultLayout.astro'
+const { src = '/CSorter.png' } = Astro.props
+import Hero from '../components/Hero.astro'
+import ContentMedia from '../components/ContentMedia.astro'
+import Header from '../components/Header.astro'
+import Footer from '../components/Footer.astro'
+---
+
+<DefaultLayout title="How to Use CSorter">
+  <Hero />
+
+  <ContentMedia imgSrc="../public/CSorter2.png">
+    <h2>Using CSorter Efficiently</h2>
+    <p class="text-2xl">
+      CSorter is a community-driven storage system designed to streamline item organization. When items are dropped into
+      the input, CSorter automatically sorts them, ensuring a well-organized storage area. Whether you're a veteran
+      player or new to the server, this guide will help you make the most out of the CSorter build.
+    </p>
+  </ContentMedia>
+
+  <section class="mb-32 mt-64">
+    <div class="container">
+      <h2 class="mb-16 text-6xl">Get Started with CSorter</h2>
+      <p class="text-2xl">
+        Ready to contribute? Head over to <code class="copyable-text">/warp CSorter</code> now and start donating your items
+        to help build a stronger community on AroundTheWorldMC. Everyone is welcome to contribute by donating items they
+        no longer need and to retrieve what they require, fostering a collaborative and resourceful community environment.
+      </p>
+    </div>
+  </section>
+
+  <section class="mb-32 mt-64">
+    <div class="container">
+      <h2 class="mb-16 text-6xl">How CSorter Works</h2>
+      <p class="text-2xl">
+        CSorter simplifies item management by automatically sorting items dropped into its input. This process ensures
+        that the storage area remains well-organized and accessible. By donating items you no longer need, you help
+        maintain a useful inventory for everyone. Meanwhile, you can easily retrieve the items you require from the
+        sorted storage.
+      </p>
+    </div>
+  </section>
+
+  <style>
+    /* Styles for dark mode */
+    .copyable-text {
+      background-color: #333; /* Dark background to fit dark mode */
+      color: #f0f0f0; /* Light text color for readability */
+      padding: 4px 8px; /* Padding around the text */
+      border-radius: 4px; /* Rounded corners */
+      user-select: text; /* Make text selectable */
+      cursor: text; /* Indicate that the text is selectable */
+      font-family: monospace; /* Monospaced font for code appearance */
+      border: 1px solid #555; /* Subtle border for better contrast */
+    }
+
+    .copyable-text::after {
+      content: ''; /* Hint to copy text */
+      font-size: 0.9em;
+      color: #ccc; /* Slightly lighter color for the hint */
+    }
+  </style>
+</DefaultLayout>
