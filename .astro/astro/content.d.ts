@@ -159,6 +159,15 @@ declare module 'astro:content' {
   data: any
 } & { render(): Render[".md"] };
 };
+"items": {
+"Supported.md": {
+	id: "Supported.md";
+  slug: "supported";
+  body: string;
+  collection: "items";
+  data: any
+} & { render(): Render[".md"] };
+};
 "showcase": Record<string, {
   id: string;
   slug: string;

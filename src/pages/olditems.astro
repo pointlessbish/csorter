@@ -1,0 +1,62 @@
+---
+import { getCollection } from 'astro:content'
+import Layout from '../layouts/DefaultLayout.astro'
+import ItemsPreview from '../components/ItemsPreview.astro'
+import Grid from '../components/Grid.astro'
+
+// Fetch the specific Markdown file from the 'items' collection
+const [item] = await getCollection('items', { slug: 'items' })
+
+// Ensure the item is fetched correctly
+if (!item) {
+  throw new Error('Item not found')
+}
+
+// Render the content of the Markdown file
+const { Content } = await item.render()
+---
+
+<Layout title="Items">
+  <div class="stack gap-20">
+    <main class="wrapper stack gap-8">
+      <section class="hero my-24">
+        <div class="container">
+          <div class="grid grid-cols-1 items-center gap-24 lg:grid-cols-2">
+            <div class="flex flex-col items-center gap-8 md:items-start">
+              <h1 class="text-center text-6xl md:text-left lg:text-8xl">
+                <span class="text-gradient">Stackables ONLY</span>
+              </h1>
+              <div class="content">
+                <Content />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <Grid variant="offset">
+        <ul>
+          {
+            // Optionally, you could add more items or previews here
+          }
+        </ul>
+      </Grid>
+    </main>
+  </div>
+</Layout>
+
+<style lang="scss">
+  .text-gradient {
+    background: linear-gradient(315deg, var(--primary-200) 25%, var(--secondary-500));
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  :global(.darkmode .text-gradient) {
+    background: linear-gradient(315deg, var(--primary-200) 25%, var(--secondary-400));
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+</style>
