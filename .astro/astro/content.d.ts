@@ -151,9 +151,9 @@ declare module 'astro:content' {
 
 	type ContentEntryMap = {
 		"changelog": {
-"2024-08-20.md": {
-	id: "2024-08-20.md";
-  slug: "2024-08-20";
+"2024-08-21.md": {
+	id: "2024-08-21.md";
+  slug: "2024-08-21";
   body: string;
   collection: "changelog";
   data: any

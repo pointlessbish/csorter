@@ -5,6 +5,8 @@ import DefaultLayout from '../../layouts/DefaultLayout.astro'
 
 import Icon from '../../components/Icon.astro'
 
+import Header from '../../components/Header.astro'
+
 interface Props {
   entry: CollectionEntry<'changelog'>
 }
@@ -24,16 +26,18 @@ const { entry } = Astro.props
 const { Content } = await entry.render()
 ---
 
-<div title={entry.data.title} description={entry.data.description}>
-  <div class="stack gap-20">
-    <div class="stack gap-15">
-      <main class="wrapper">
-        <div class="stack content gap-10">
-          <div class="content">
-            <Content />
+<DefaultLayout title="Changelog">
+  <div title={entry.data.title} description={entry.data.description}>
+    <div class="stack gap-20">
+      <div class="stack gap-15">
+        <main class="wrapper">
+          <div class="stack content gap-10">
+            <div class="content">
+              <Content />
+            </div>
           </div>
-        </div>
-      </main>
+        </main>
+      </div>
     </div>
   </div>
-</div>
+</DefaultLayout>
