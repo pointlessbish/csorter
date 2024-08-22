@@ -6,11 +6,11 @@ import Header from '../components/Header.astro'
 import Footer from '../components/Footer.astro'
 
 const {
-  title = 'Astro',
-  description = 'A starter project with accessibility features using Astro static site builder. Contains accessible landmarks, skip links, a dark mode color scheme, better focus outline and keyboard menu navigation.',
+  title = 'CSorter',
+  description = 'CSorter: A community storage system for effortless item donation and retrieval on AroundTheWorldMC. Organize, contribute, and access resources with ease.',
   url,
   image = '/social-preview-image.png',
-  author = 'Mark Teekman',
+  author = 'pointlessbish',
 } = Astro.props
 ---
 
@@ -28,7 +28,7 @@ const {
       description={description.substring(0, 100)}
       url={Astro.site
         ? `${Astro.site}/${title.toLowerCase().replaceAll(' ', '-')}`
-        : `https://accessible-astro.dev/${title.toLowerCase().replaceAll(' ', '-')}`}
+        : `https://csorter.void14.com/${title.toLowerCase().replaceAll(' ', '-')}`}
       image={image}
       author={author}
     />
