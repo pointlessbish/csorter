@@ -14,7 +14,6 @@ import { Accordion, AccordionItem } from 'accessible-astro-components'
   <section class="mb-12 mt-32">
     <div class="container">
       <Accordion>
-        <!-- Wood Types -->
         <AccordionItem header="Wood Types">
           <h2></h2>
           <table class="min-w-full divide-y">
@@ -236,7 +235,6 @@ import { Accordion, AccordionItem } from 'accessible-astro-components'
             <thead class="bg-gray-50">
               <tr>
                 <th class="px-6 py-3 text-left text-xs font-medium uppercase tracking-wider text-gray-500">Color</th>
-                <th class="px-6 py-3 text-left text-xs font-medium uppercase tracking-wider text-gray-500">Dye</th>
                 <th class="px-6 py-3 text-left text-xs font-medium uppercase tracking-wider text-gray-500">Wool</th>
                 <th class="px-6 py-3 text-left text-xs font-medium uppercase tracking-wider text-gray-500">Glass</th>
                 <th class="px-6 py-3 text-left text-xs font-medium uppercase tracking-wider text-gray-500"
@@ -329,17 +327,96 @@ import { Accordion, AccordionItem } from 'accessible-astro-components'
                 <td class="whitespace-nowrap px-6 py-4" style="color:#a9a9a9">Concrete</td>
                 <td class="whitespace-nowrap px-6 py-4" style="color:#a9a9a9">Concrete-Powder</td>
                 <td class="whitespace-nowrap px-6 py-4" style="color:#a9a9a9">Terracotta</td>
+                <td class="whitespace-nowrap px-6 py-4" style="color:#FF0000">✘</td>
+              </tr>
+              <tr>
+                <td class="whitespace-nowrap px-6 py-4" style="color:#000000; background-color:#d3d3d3">Black</td>
+                <td class="whitespace-nowrap px-6 py-4" style="color:#000000; background-color:#d3d3d3">Dye</td>
+                <td class="whitespace-nowrap px-6 py-4" style="color:#000000; background-color:#d3d3d3">Wool</td>
+                <td class="whitespace-nowrap px-6 py-4" style="color:#000000; background-color:#d3d3d3">Glass</td>
+                <td class="whitespace-nowrap px-6 py-4" style="color:#000000; background-color:#d3d3d3">Glass-Pane</td>
+                <td class="whitespace-nowrap px-6 py-4" style="color:#000000; background-color:#d3d3d3">Concrete</td>
+                <td class="whitespace-nowrap px-6 py-4" style="color:#000000; background-color:#d3d3d3"
+                  >Concrete-Powder</td
+                >
+                <td class="whitespace-nowrap px-6 py-4" style="color:#000000; background-color:#d3d3d3">Terracotta</td>
                 <td class="whitespace-nowrap px-6 py-4" style="color:#00ff2a">✔</td>
               </tr>
               <tr>
-                <td class="whitespace-nowrap px-6 py-4" style="color:#FFA500">Orange</td>
-                <td class="whitespace-nowrap px-6 py-4" style="color:#FFA500">Dye</td>
-                <td class="whitespace-nowrap px-6 py-4" style="color:#FFA500">Wool</td>
-                <td class="whitespace-nowrap px-6 py-4" style="color:#FFA500">Glass</td>
-                <td class="whitespace-nowrap px-6 py-4" style="color:#FFA500">Glass-Pane</td>
-                <td class="whitespace-nowrap px-6 py-4" style="color:#FFA500">Concrete</td>
-                <td class="whitespace-nowrap px-6 py-4" style="color:#FFA500">Concrete-Powder</td>
-                <td class="whitespace-nowrap px-6 py-4" style="color:#FFA500">Terracotta</td>
+                <td class="whitespace-nowrap px-6 py-4" style="color:#8b4513">Brown</td>
+                <td class="whitespace-nowrap px-6 py-4" style="color:#8b4513">Dye</td>
+                <td class="whitespace-nowrap px-6 py-4" style="color:#8b4513">Wool</td>
+                <td class="whitespace-nowrap px-6 py-4" style="color:#8b4513">Glass</td>
+                <td class="whitespace-nowrap px-6 py-4" style="color:#8b4513">Glass-Pane</td>
+                <td class="whitespace-nowrap px-6 py-4" style="color:#8b4513">Concrete</td>
+                <td class="whitespace-nowrap px-6 py-4" style="color:#8b4513">Concrete-Powder</td>
+                <td class="whitespace-nowrap px-6 py-4" style="color:#8b4513">Terracotta</td>
+                <td class="whitespace-nowrap px-6 py-4" style="color:#00ff2a">✔</td>
+              </tr>
+              <tr>
+                <td class="whitespace-nowrap px-6 py-4" style="color:#ffc0cb">Pink</td>
+                <td class="whitespace-nowrap px-6 py-4" style="color:#ffc0cb">Dye</td>
+                <td class="whitespace-nowrap px-6 py-4" style="color:#ffc0cb">Wool</td>
+                <td class="whitespace-nowrap px-6 py-4" style="color:#ffc0cb">Glass</td>
+                <td class="whitespace-nowrap px-6 py-4" style="color:#ffc0cb">Glass-Pane</td>
+                <td class="whitespace-nowrap px-6 py-4" style="color:#ffc0cb">Concrete</td>
+                <td class="whitespace-nowrap px-6 py-4" style="color:#ffc0cb">Concrete-Powder</td>
+                <td class="whitespace-nowrap px-6 py-4" style="color:#ffc0cb">Terracotta</td>
+                <td class="whitespace-nowrap px-6 py-4" style="color:#00ff2a">✔</td>
+              </tr>
+              <tr>
+                <td class="whitespace-nowrap px-6 py-4" style="color:#800080">Purple</td>
+                <td class="whitespace-nowrap px-6 py-4" style="color:#800080">Dye</td>
+                <td class="whitespace-nowrap px-6 py-4" style="color:#800080">Wool</td>
+                <td class="whitespace-nowrap px-6 py-4" style="color:#800080">Glass</td>
+                <td class="whitespace-nowrap px-6 py-4" style="color:#800080">Glass-Pane</td>
+                <td class="whitespace-nowrap px-6 py-4" style="color:#800080">Concrete</td>
+                <td class="whitespace-nowrap px-6 py-4" style="color:#800080">Concrete-Powder</td>
+                <td class="whitespace-nowrap px-6 py-4" style="color:#800080">Terracotta</td>
+                <td class="whitespace-nowrap px-6 py-4" style="color:#00ff2a">✔</td>
+              </tr>
+              <tr>
+                <td class="whitespace-nowrap px-6 py-4" style="color:#00ffff">Cyan</td>
+                <td class="whitespace-nowrap px-6 py-4" style="color:#00ffff">Dye</td>
+                <td class="whitespace-nowrap px-6 py-4" style="color:#00ffff">Wool</td>
+                <td class="whitespace-nowrap px-6 py-4" style="color:#00ffff">Glass</td>
+                <td class="whitespace-nowrap px-6 py-4" style="color:#00ffff">Glass-Pane</td>
+                <td class="whitespace-nowrap px-6 py-4" style="color:#00ffff">Concrete</td>
+                <td class="whitespace-nowrap px-6 py-4" style="color:#00ffff">Concrete-Powder</td>
+                <td class="whitespace-nowrap px-6 py-4" style="color:#00ffff">Terracotta</td>
+                <td class="whitespace-nowrap px-6 py-4" style="color:#00ff2a">✔</td>
+              </tr>
+              <tr>
+                <td class="whitespace-nowrap px-6 py-4" style="color:#add8e6">Light Blue</td>
+                <td class="whitespace-nowrap px-6 py-4" style="color:#add8e6">Dye</td>
+                <td class="whitespace-nowrap px-6 py-4" style="color:#add8e6">Wool</td>
+                <td class="whitespace-nowrap px-6 py-4" style="color:#add8e6">Glass</td>
+                <td class="whitespace-nowrap px-6 py-4" style="color:#add8e6">Glass-Pane</td>
+                <td class="whitespace-nowrap px-6 py-4" style="color:#add8e6">Concrete</td>
+                <td class="whitespace-nowrap px-6 py-4" style="color:#add8e6">Concrete-Powder</td>
+                <td class="whitespace-nowrap px-6 py-4" style="color:#add8e6">Terracotta</td>
+                <td class="whitespace-nowrap px-6 py-4" style="color:#00ff2a">✔</td>
+              </tr>
+              <tr>
+                <td class="whitespace-nowrap px-6 py-4" style="color:#ffa500">Orange</td>
+                <td class="whitespace-nowrap px-6 py-4" style="color:#ffa500">Dye</td>
+                <td class="whitespace-nowrap px-6 py-4" style="color:#ffa500">Wool</td>
+                <td class="whitespace-nowrap px-6 py-4" style="color:#ffa500">Glass</td>
+                <td class="whitespace-nowrap px-6 py-4" style="color:#ffa500">Glass-Pane</td>
+                <td class="whitespace-nowrap px-6 py-4" style="color:#ffa500">Concrete</td>
+                <td class="whitespace-nowrap px-6 py-4" style="color:#ffa500">Concrete-Powder</td>
+                <td class="whitespace-nowrap px-6 py-4" style="color:#ffa500">Terracotta</td>
+                <td class="whitespace-nowrap px-6 py-4" style="color:#00ff2a">✔</td>
+              </tr>
+              <tr>
+                <td class="whitespace-nowrap px-6 py-4" style="color:#808080">Gray</td>
+                <td class="whitespace-nowrap px-6 py-4" style="color:#808080">Dye</td>
+                <td class="whitespace-nowrap px-6 py-4" style="color:#808080">Wool</td>
+                <td class="whitespace-nowrap px-6 py-4" style="color:#808080">Glass</td>
+                <td class="whitespace-nowrap px-6 py-4" style="color:#808080">Glass-Pane</td>
+                <td class="whitespace-nowrap px-6 py-4" style="color:#808080">Concrete</td>
+                <td class="whitespace-nowrap px-6 py-4" style="color:#808080">Concrete-Powder</td>
+                <td class="whitespace-nowrap px-6 py-4" style="color:#808080">Terracotta</td>
                 <td class="whitespace-nowrap px-6 py-4" style="color:#00ff2a">✔</td>
               </tr>
             </tbody>
