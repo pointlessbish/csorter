@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5bfba8a0c8450a5b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/content/items/Supported.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "7595b5e72c7698ac",
             "type": "leaf",
             "state": {
@@ -31,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -161,11 +148,11 @@
   },
   "active": "7595b5e72c7698ac",
   "lastOpenFiles": [
+    "src/content/items/Supported.md",
+    "src/content/changelog/2024-08-21.md",
     "src/pages/changelog.astro",
     "src/pages/old changelog.astro",
     "src/content/changelog/2024-08-20.md",
-    "src/content/changelog/2024-08-21.md",
-    "src/content/items/Supported.md",
     "src/pages/itemlist.astro",
     "src/layouts/MDLayout.astro",
     "src/content/items/CurrentlySupported.md",
@@ -178,7 +165,6 @@
     "src/pages/items.md",
     "src/pages/items/items.md",
     "src/pages/items.astro",
-    "src/layouts/ProjectLayout.astro",
     "node_modules/marked/README.md",
     "node_modules/marked/man/marked.1.md",
     "node_modules/marked/LICENSE.md",
