@@ -9,6 +9,7 @@ import End2 from '../components/Minecraft/End2.astro'
 import Nether from '../components/Minecraft/Nether.astro'
 import Nether2 from '../components/Minecraft/Nether2.astro'
 import MobDrops from '../components/Minecraft/MobDrops.astro'
+import Resources from '../components/Minecraft/Resources.astro'
 // import CraftingMaterials from '../components/Minecraft/CraftingMaterials.astro'
 ---
 
@@ -50,9 +51,16 @@ import MobDrops from '../components/Minecraft/MobDrops.astro'
 
       <!-- Mob Drops -->
       <Accordion>
-        <h2 class="mob-drops" style="color:#FFD700">Mob Drops</h2>
+        <h2 class="mob-drops" style="color:#FFD700">Resources</h2>
         <AccordionItem header="Mob Drops">
           <MobDrops />
+        </AccordionItem>
+      </Accordion>
+
+      <!-- Resources -->
+      <Accordion>
+        <AccordionItem header="Resources">
+          <Resources />
         </AccordionItem>
       </Accordion>
 
