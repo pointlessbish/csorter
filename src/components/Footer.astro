@@ -1,11 +1,14 @@
 ---
 const currentYear = new Date().getFullYear()
 const username = 'pointlessbish'
+
+import Giscus from '../components/Giscus.astro'
 ---
 
 <footer>
   <section class="py-8">
     <div class="container">
+      <Giscus />
       <p>
         &copy; {currentYear} - <a href={`https://github.com/${username}`}>{username}</a>.
       </p>
